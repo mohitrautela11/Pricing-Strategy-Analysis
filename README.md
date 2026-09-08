@@ -42,6 +42,8 @@ Six products came in under 30% GMP in Q3 2025. Once I looked at their full-year 
 
 So out of six flagged products, three are genuinely underperforming and should go. The other three are otherwise solid, they just need a small correction to absorb the cost increase.
 
+[`Recommendation.png`](./Recommendation.png)
+
 ## Dashboard
 
 Two tabs:
@@ -56,6 +58,3 @@ Two tabs:
 - [`Sales_Pricing_Analysis.twbx`](./Sales_Pricing_Analysis.twbx) — the Tableau workbook
 - [`Task.png`](./Task.png) — the original email/brief from management
 
-## What This Shows
-
-SQL (joins, UNION ALL, handling nulls, CTEs, Window Functions), Tableau (calculated fields, reference lines, parameters, dashboard navigation, Filters), and thinking a step past "what does the data say" into "what should we actually do about it."
