@@ -58,4 +58,4 @@ Two tabs:
 
 ## What This Shows
 
-SQL (joins, UNION ALL, handling nulls, Ctes. Window Functions), Tableau (calculated fields, reference lines, parameters, dashboard navigation, Filters), and thinking a step past "what does the data say" into "what should we actually do about it."
+SQL (joins, UNION ALL, handling nulls, CTEs, Window Functions), Tableau (calculated fields, reference lines, parameters, dashboard navigation, Filters), and thinking a step past "what does the data say" into "what should we actually do about it."
