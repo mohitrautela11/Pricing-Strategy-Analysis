@@ -50,11 +50,11 @@ Two tabs:
 
 ## Files
 
-- `SQLQuery.sql` — the query that builds the cleaned dataset
-- `Daily_grind.csv` — the exported output that Tableau actually reads from
-- `customers.csv`, `products.csv`, `Orders_2023/2024/2025.csv` — raw source files
-- `Sales_Pricing_Analysis.twbx` — the Tableau workbook
-- `Task.png` — the original email/brief from management
+- [`SQLQuery.sql`](./SQLQuery.sql) — the query that builds the cleaned dataset
+- [`Daily_grind.csv`](./Daily_grind.csv) — the exported output that Tableau actually reads from
+- [`customers.csv`](./customers.csv), [`products.csv`](./products.csv), [`Orders_2023/2025.csv`](./Orders_2023)/['2024'](./Orders_2024)//['2025'](./Orders_2025) — raw source files
+- [`Sales_Pricing_Analysis.twbx`](./Sales_Pricing_Analysis.twbx) — the Tableau workbook
+- [`Task.png`](./Task.png) — the original email/brief from management
 
 ## What This Shows
 
