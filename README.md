@@ -17,7 +17,7 @@ Management sent over an email saying margins had dropped across the portfolio, m
 
 I started in SQL Server, combining the three yearly order tables with a `UNION ALL`, then joined that against the customer and product tables. A few rows were missing revenue values, so I backfilled those using `Price × Quantity` and calculated profit as revenue minus COGS. That query is in [`SQLQuery.sql`](./SQLQuery.sql).
 
-One snag: I was building the dashboard in Tableau Public, which doesn't let you connect live to SQL Server. So I exported the query results to a CSV (`Daily_grind.csv`) and used that as the data source instead.
+One snag: I was building the dashboard in Tableau Public, which doesn't let you connect live to SQL Server. So I exported the query results to a CSV [`Daily_grind.csv`](./Daily_grind.csv) and used that as the data source instead.
 
 Once I had the margin numbers, I didn't want to just hand over a flat list of "these six products are below 30%." A product that's been struggling for two years and one that just had a rough quarter aren't the same problem, so I checked each flagged product against its full 2023–2025 performance too, not just Q3 2025. That split ended up being the whole point of the recommendation.
 
