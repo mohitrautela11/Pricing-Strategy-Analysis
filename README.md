@@ -52,10 +52,10 @@ Two tabs:
 
 - [`SQLQuery.sql`](./SQLQuery.sql) — the query that builds the cleaned dataset
 - [`Daily_grind.csv`](./Daily_grind.csv) — the exported output that Tableau actually reads from
-- [`customers.csv`](./customers.csv), [`products.csv`](./products.csv), [`Orders_2023/2025.csv`](./Orders_2023)/['2024'](./Orders_2024)//['2025'](./Orders_2025) — raw source files
+- [`customers.csv`](./customers.csv), [`products.csv`](./products.csv), [`Orders_2023.csv`](./Orders_2023.csv), ['Orders_2024.csv'](./Orders_2024.csv), ['Orders_2023.csv'](./Orders_2025.csv) — raw source files
 - [`Sales_Pricing_Analysis.twbx`](./Sales_Pricing_Analysis.twbx) — the Tableau workbook
 - [`Task.png`](./Task.png) — the original email/brief from management
 
 ## What This Shows
 
-SQL (joins, UNION ALL, handling nulls), Tableau (calculated fields, reference lines, parameters, dashboard navigation), and thinking a step past "what does the data say" into "what should we actually do about it."
+SQL (joins, UNION ALL, handling nulls, Ctes. Window Functions), Tableau (calculated fields, reference lines, parameters, dashboard navigation, Filters), and thinking a step past "what does the data say" into "what should we actually do about it."
